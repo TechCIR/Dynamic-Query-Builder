@@ -1,0 +1,23 @@
+apply plugin: 'java-library'
+apply plugin : 'maven'
+
+
+sourceCompatibility = 1.8
+group "org.techcir"
+version = '1.0-RELEASE'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'TechCIR query-builder', 'Implementation-Version': version
+    }
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+
+
